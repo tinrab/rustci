@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+  "rustci-core",
+  "rustci-app",
+]
