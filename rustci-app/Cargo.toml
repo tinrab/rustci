@@ -1,0 +1,8 @@
+[package]
+name = "rustci-app"
+version = "0.1.0"
+authors = ["Tin Rabzelj <tin@digiverse.si>"]
+edition = "2018"
+
+[dependencies]
+rustci-core = { path = "../rustci-core" }
