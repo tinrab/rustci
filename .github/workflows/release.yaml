@@ -20,4 +20,4 @@ jobs:
           command: build
           args: --workspace --release
       - name: Package
-        run: docker build -t ${$GITHUB_REPOSITORY}:$(echo $GITHUB_REF | grep -oE "[^/]+$") .
+        run: docker build -t ${GITHUB_REPOSITORY}:$(echo $GITHUB_REF | grep -oE "[^/]+$") .
